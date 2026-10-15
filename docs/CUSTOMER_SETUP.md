@@ -8,7 +8,6 @@ Moves your SimShift rail automatically when GSPro switches between a right- and 
 - The **Auto-shift (GSPro)** switch in your SimShift dashboard turned **ON**.
 
 ## WiFi setup
-
 Your SimShift rail creates its own setup network the first time it powers on, or any time it can't reach your WiFi.
 
 1. Power the rail. Wait about 30 seconds.
