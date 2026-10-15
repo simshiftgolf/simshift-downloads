@@ -7,6 +7,19 @@ Moves your SimShift rail automatically when GSPro switches between a right- and 
 - Your sim PC and the rail on the **same home network**.
 - The **Auto-shift (GSPro)** switch in your SimShift dashboard turned **ON**.
 
+## WiFi setup
+
+Your SimShift rail creates its own setup network the first time it powers on, or any time it can't reach your WiFi.
+
+1. Power the rail. Wait about 30 seconds.
+2. On your phone or laptop, join the WiFi network **SimShift-Setup-XXXX** (password: `simshift123`).
+3. Open a browser and go to **http://192.168.4.1**
+4. Enter your home WiFi name and password, then tap **Save**.
+5. The rail restarts and joins your network. Your phone will reconnect to your normal WiFi.
+
+Your phone may say the setup network has "no internet." That's expected, so stay connected.
+Works on iPhone, Android, and computers.
+
 ## Install (about 2 minutes)
 1. Create a folder such as `C:\SimShift` and copy `SimShiftAutoShift.exe` and `install_autostart.bat` into it.
 2. Double-click **`install_autostart.bat`** and click **Yes** when Windows asks for permission.
