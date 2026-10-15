@@ -26,7 +26,6 @@ Your SimShift rail creates its own setup network the first time it powers on, or
 Your phone may say the setup network has "no internet." That's expected, so stay connected.
 Works on iPhone, Android, and computers.
 
-
 ## Windows SmartScreen warning
 
 The app is not yet code-signed. If Windows warns you, click **More info → Run anyway**.
