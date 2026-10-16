@@ -19,6 +19,8 @@ Your SimShift rail creates its own setup network the first time it powers on, or
 Your phone may say the setup network has "no internet." That's expected, so stay connected.
 Works on iPhone, Android, and computers.
 
+**After a power outage or router restart:** if the rail's setup network appears, wait about 10 minutes. The rail automatically reconnects to your WiFi once your router is back. Unplugging the rail and plugging it back in also makes it retry right away.
+
 ## Install (about 2 minutes)
 1. Create a folder such as `C:\SimShift` and copy `SimShiftAutoShift.exe` and `install_autostart.bat` into it.
 2. Double-click **`install_autostart.bat`** and click **Yes** when Windows asks for permission.
