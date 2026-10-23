@@ -26,9 +26,7 @@ Works on iPhone, Android, and computers.
 2. Double-click **`install_autostart.bat`** and click **Yes** when Windows asks for permission.
    Auto-shift starts now and will start whenever you log in to Windows.
 
-> **Windows or your antivirus may show a warning** the first time, because the program isn't code-signed yet.
-> In Windows SmartScreen click **More info → Run anyway**. If your antivirus blocks or removes the file, add an
-> exception for the `C:\SimShift` folder and run `install_autostart.bat` again.
+> **Windows or your antivirus may show a warning** the first time. The program is code-signed by SIMSHIFT LLC, but Windows SmartScreen can still warn about new software until enough people have downloaded it. In Windows SmartScreen click **More info → Run anyway**. If your antivirus blocks or removes the file, add an exception for the `C:\SimShift` folder and run `install_autostart.bat` again.
 
 ## Use it
 - Start GSPro as normal and pick a player. When the player's handedness changes, the rail moves.
