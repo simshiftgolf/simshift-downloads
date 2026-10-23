@@ -25,7 +25,7 @@ Works on iPhone, Android, and computers.
 
 ## Windows SmartScreen warning
 
-The app is not yet code-signed. If Windows warns you, click **More info → Run anyway**.
+The app is code-signed by SIMSHIFT LLC. If Windows warns you, click **More info → Run anyway**.
 
 ## Support
 
