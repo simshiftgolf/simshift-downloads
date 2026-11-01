@@ -1,11 +1,13 @@
-# SimShift Auto-Shift for GSPro — Setup
+# SimShift Auto-Shift — Setup (GSPro, Infinite Tees, ShotForge)
 
-Moves your SimShift rail automatically when GSPro switches between a right- and left-handed player.
+Moves your SimShift rail automatically when your golf sim software switches between a right- and left-handed player.
+Works with GSPro, and with Infinite Tees and ShotForge through the Rela connector.
 
 ## Before you start
 - SimShift rail powered on, connected to your home WiFi, and showing in your SimShift dashboard.
 - Your sim PC and the rail on the **same home network**.
-- The **Auto-shift (GSPro)** switch in your SimShift dashboard turned **ON**.
+- The **Auto-shift (GSPro)** switch in your SimShift dashboard turned **ON**. (This one switch controls Auto-shift for all supported sim software.)
+- Using Infinite Tees or ShotForge? Rela must be running on the same PC as the sim software.
 
 ## WiFi setup
 Your SimShift rail creates its own setup network the first time it powers on, or any time it can't reach your WiFi.
@@ -29,7 +31,8 @@ Works on iPhone, Android, and computers.
 > **Windows or your antivirus may show a warning** the first time. The program is code-signed by SIMSHIFT LLC, but Windows SmartScreen can still warn about new software until enough people have downloaded it. In Windows SmartScreen click **More info → Run anyway**. If your antivirus blocks or removes the file, add an exception for the `C:\SimShift` folder and run `install_autostart.bat` again.
 
 ## Use it
-- Start GSPro as normal and pick a player. When the player's handedness changes, the rail moves.
+- Start your sim software as normal (GSPro, or Infinite Tees / ShotForge with Rela running) and pick a player. When the player's handedness changes, the rail moves.
+- If the sim opens on a different side than the rail, switch player once and the rail will catch up.
 - To stop the rail moving automatically, turn the **Auto-shift (GSPro)** switch **OFF** in the dashboard. The Full Left / Full Right buttons still work.
 
 ## Dashboard status
@@ -65,6 +68,9 @@ Red means the program isn't running, or it can't reach the rail.
 
 ## If the rail doesn't move
 - Check the rail shows **Online** and **Ready** in the dashboard.
-- Open `%LOCALAPPDATA%\SimShift\autoshift.log` and send it to support.
+- Open `%LOCALAPPDATA%\SimShift\autoshift.log` and send it to support. The log lists the connections the program watches, and shows a line like `LH reported by ...` each time a player's handedness changes. If you never see that line when you switch players, the sim isn't sending its handedness to the program.
+- Using Infinite Tees or ShotForge? Make sure Rela is running and connected to the sim.
 - If your PC can't find the rail by name, create a file named `simshift_config.json` next to the program containing:
   `{ "mode": "lan", "host": "THE_RAIL_IP_ADDRESS" }`
+- If your sim or Rela uses a different port, support can give you a line to add to the same file, for example:
+  `"extra_sources": [{ "name": "My Sim", "port": 1234 }]`
