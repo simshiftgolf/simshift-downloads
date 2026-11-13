@@ -27,6 +27,10 @@ Works on iPhone, Android, and computers.
 
 The app is code-signed by SIMSHIFT LLC. If Windows warns you, click **More info → Run anyway**.
 
+## License
+
+Use of the SimShift software is subject to the [End User License Agreement](EULA.md). By downloading or using it, you agree to those terms.
+
 ## Support
 
 Open an [issue](../../issues) or email info@simshift.golf.
